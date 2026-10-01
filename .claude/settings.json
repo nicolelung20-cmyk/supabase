@@ -6,7 +6,35 @@
       "Edit(**/__generated__/**)",
       "Edit(apps/docs/features/docs/generated/**)",
       "Edit(apps/www/.generated/**)",
-      "Edit(supabase/functions/common/database-types.ts)"
+      "Edit(supabase/functions/common/database-types.ts)",
+      "Bash(rm -rf /*)",
+      "Bash(rm -rf ~*)",
+      "Bash(git push --force *)",
+      "Bash(git push -f *)",
+      "Bash(git reset --hard origin/*)",
+      "Bash(git clean -fdx*)"
+    ],
+    "allow": [
+      "Read",
+      "Edit",
+      "Bash(git *)",
+      "Bash(pnpm *)",
+      "Bash(npm *)",
+      "Bash(uv *)",
+      "Bash(pip *)",
+      "Bash(ruff *)",
+      "Bash(pytest *)",
+      "Bash(make *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(grep *)",
+      "Bash(sed *)",
+      "Bash(diff *)",
+      "Bash(jq *)",
+      "Bash(mkdir *)",
+      "Bash(cp *)",
+      "Bash(mv *)",
+      "Bash(chmod *)"
     ]
   },
   "hooks": {
